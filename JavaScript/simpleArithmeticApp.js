@@ -22,7 +22,7 @@ function askSubtractionQuestion() {
     const answer = firstDigit - secondDigit;
 
     for (let attempt = 1; attempt <= 2; attempt++) {
-        const guess = Number(prompt(`${secondDigit} - ${secondDigit} = `));
+        const guess = Number(prompt(`{secondDigit} - {secondDigit} = `));
 
         if (guess === answer) {
             console.log("Great job!");
